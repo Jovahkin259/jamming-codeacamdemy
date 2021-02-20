@@ -24,7 +24,7 @@ class App extends React.Component {
   }
 
   savePlaylist () {
-    return this.state.playlistTracks.map(track => track.uri)
+    // return this.state.playlistTracks.map(track => track.uri)
   }
 
   updatePlaylistName (name) {
